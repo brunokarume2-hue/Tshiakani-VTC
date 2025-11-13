@@ -65,8 +65,9 @@ railway variables set PORT=3000 2>&1 | grep -v "already exists" || true
 railway variables set JWT_SECRET=ac6dcf4a79db19cffc2c71166699ff4ead6ec0fe259b3f77c67de9543ad99ec4a7e9818c6e4013467eaaf6b12545c34c8ce77b73141df9e28437179971e99eab 2>&1 | grep -v "already exists" || true
 railway variables set ADMIN_API_KEY=aadf3378b1d5eca1c38398e5ee31ad6f978747762f9d546847173eb54e7637d8 2>&1 | grep -v "already exists" || true
 railway variables set CORS_ORIGIN=https://tshiakani-vtc-99cea.web.app,https://tshiakani-vtc-99cea.firebaseapp.com 2>&1 | grep -v "already exists" || true
-railway variables set TWILIO_ACCOUNT_SID=YOUR_TWILIO_ACCOUNT_SID 2>&1 | grep -v "already exists" || true
-railway variables set TWILIO_AUTH_TOKEN=YOUR_TWILIO_AUTH_TOKEN 2>&1 | grep -v "already exists" || true
+# Variables Twilio - À configurer manuellement dans Railway Dashboard
+# railway variables set TWILIO_ACCOUNT_SID=votre_vraie_valeur 2>&1 | grep -v "already exists" || true
+# railway variables set TWILIO_AUTH_TOKEN=votre_vraie_valeur 2>&1 | grep -v "already exists" || true
 railway variables set TWILIO_WHATSAPP_FROM=whatsapp:+14155238886 2>&1 | grep -v "already exists" || true
 railway variables set TWILIO_CONTENT_SID=HX229f5a04fd0510ce1b071852155d3e75 2>&1 | grep -v "already exists" || true
 railway variables set STRIPE_CURRENCY=cdf 2>&1 | grep -v "already exists" || true
