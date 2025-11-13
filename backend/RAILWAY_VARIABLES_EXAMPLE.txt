@@ -1,0 +1,18 @@
+# Variables d'environnement pour Railway
+# ⚠️ REMPLACER LES VALEURS PAR VOS VRAIES CREDENTIALS
+# Copier-coller dans Railway Dashboard > Variables
+
+DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@db.ecayztndohyyjaynrkaz.supabase.co:5432/postgres
+NODE_ENV=production
+PORT=3000
+JWT_SECRET=YOUR_JWT_SECRET
+ADMIN_API_KEY=YOUR_ADMIN_API_KEY
+CORS_ORIGIN=https://tshiakani-vtc-99cea.web.app,https://tshiakani-vtc-99cea.firebaseapp.com
+TWILIO_ACCOUNT_SID=YOUR_TWILIO_ACCOUNT_SID
+TWILIO_AUTH_TOKEN=YOUR_TWILIO_AUTH_TOKEN
+TWILIO_WHATSAPP_FROM=whatsapp:+14155238886
+TWILIO_CONTENT_SID=YOUR_TWILIO_CONTENT_SID
+STRIPE_CURRENCY=cdf
+SUPABASE_URL=https://mbbcjcltvmfbfrbgfhmv.supabase.co
+SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+
