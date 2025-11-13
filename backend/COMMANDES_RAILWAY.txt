@@ -1,0 +1,16 @@
+# Commandes Railway - Copier-coller une par une
+
+# 1. Se connecter (ouvre le navigateur)
+railway login
+
+# 2. Lier le projet
+railway link -p 62642a48-f2d2-4818-a18b-b147812afff7
+
+# 3. Configurer les variables Twilio (une ligne à la fois)
+railway variables --set "TWILIO_ACCOUNT_SID=AC80018f519898d589fc4e9f07f79e0327"
+railway variables --set "TWILIO_AUTH_TOKEN=PF6AMX1753UD629JDFF1D7GE"
+railway variables --set "TWILIO_WHATSAPP_FROM=whatsapp:+14155238886"
+railway variables --set "TWILIO_CONTENT_SID=HX229f5a04fd0510ce1b071852155d3e75"
+
+# C'est tout ! Railway redéploiera automatiquement
+
