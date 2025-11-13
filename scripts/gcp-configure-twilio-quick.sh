@@ -17,7 +17,7 @@ NC='\033[0m'
 GCP_PROJECT_ID="${GCP_PROJECT_ID:-tshiakani-vtc-477711}"
 SERVICE_NAME="tshiakani-vtc-backend"
 REGION="us-central1"
-TWILIO_ACCOUNT_SID="YOUR_TWILIO_ACCOUNT_SID" # Account SID fourni
+TWILIO_ACCOUNT_SID="TWILIO_ACCOUNT_SID" # Account SID fourni
 TWILIO_WHATSAPP_FROM="whatsapp:+14155238886" # Numéro WhatsApp de test Twilio
 
 echo -e "${CYAN}═══════════════════════════════════════════════════════════${NC}"

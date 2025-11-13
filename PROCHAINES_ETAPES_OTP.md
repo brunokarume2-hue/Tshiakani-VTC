@@ -34,7 +34,7 @@ gcloud run services describe tshiakani-vtc-backend \
 ### Variables d'environnement requises
 
 ```bash
-TWILIO_ACCOUNT_SID=YOUR_TWILIO_ACCOUNT_SID
+TWILIO_ACCOUNT_SID=TWILIO_ACCOUNT_SID
 TWILIO_AUTH_TOKEN=f20d5f80fd6ac08e3ddf6ae9269a9613
 TWILIO_PHONE_NUMBER=+13097415583
 ```

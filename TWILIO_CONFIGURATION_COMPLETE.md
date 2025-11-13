@@ -8,7 +8,7 @@
 
 ### Identifiants Twilio Configurés
 
-- **Account SID** : `YOUR_TWILIO_ACCOUNT_SID` ✅
+- **Account SID** : `TWILIO_ACCOUNT_SID` ✅
 - **Auth Token** : `f20d5f80fd6ac08e3ddf6ae9269a9613` ✅
 - **Numéro Twilio (envoi)** : `+13097415583` ✅
 - **WhatsApp From** : `whatsapp:+14155238886` ✅

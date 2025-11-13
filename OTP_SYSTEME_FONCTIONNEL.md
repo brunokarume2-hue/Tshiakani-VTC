@@ -68,7 +68,7 @@ Le système d'authentification OTP est maintenant **100% fonctionnel** !
 ## 🔧 Configuration Actuelle
 
 ### Twilio
-- **Account SID** : YOUR_TWILIO_ACCOUNT_SID
+- **Account SID** : TWILIO_ACCOUNT_SID
 - **Auth Token** : f20d5f80fd6ac08e3ddf6ae9269a9613
 - **Numéro SMS** : +13097415583
 - **WhatsApp** : whatsapp:+14155238886

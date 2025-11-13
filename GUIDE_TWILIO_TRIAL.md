@@ -70,7 +70,7 @@ Si vous avez déjà un numéro vérifié, testez avec celui-ci.
 ## 📋 État Actuel
 
 ✅ **Numéro Twilio configuré** : +13097415583  
-✅ **Account SID** : YOUR_TWILIO_ACCOUNT_SID  
+✅ **Account SID** : TWILIO_ACCOUNT_SID  
 ✅ **Auth Token** : f20d5f80fd6ac08e3ddf6ae9269a9613  
 ⚠️ **Compte en mode Trial** : Limité aux numéros vérifiés
 
