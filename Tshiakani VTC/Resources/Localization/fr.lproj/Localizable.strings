@@ -1,0 +1,77 @@
+/* 
+  Localizable.strings (Français)
+  Tshiakani VTC
+*/
+
+// MARK: - Onboarding
+"onboarding.location.title" = "Partagez votre position";
+"onboarding.location.message" = "pour trouver les meilleures offres disponibles aux alentours";
+"onboarding.location.status.none" = "Aucun accès";
+"onboarding.location.status.authorized" = "Autorisé";
+"onboarding.location.status.denied" = "Refusé";
+"onboarding.location.button.continue" = "Continuer";
+
+"onboarding.phone.title" = "Entrez votre numéro";
+"onboarding.phone.message" = "Nous enverrons un code de confirmation à ce numéro";
+"onboarding.phone.placeholder" = "820 098 808";
+"onboarding.phone.button.continue" = "Continuer";
+"onboarding.phone.link.terms" = "Contrat utilisateur";
+"onboarding.phone.link.license" = "Contrat de licence";
+"onboarding.phone.link.privacy" = "Politique de confidentialité";
+
+"onboarding.code.title" = "Consultez votre WhatsApp";
+"onboarding.code.message" = "Nous avons envoyé un code à";
+"onboarding.code.button.resend" = "Renvoyer le code";
+"onboarding.code.button.sms" = "Envoyer par SMS";
+"onboarding.code.timer" = "Renvoyer dans %d secondes";
+
+"onboarding.account.title" = "Nous avons identifié un compte";
+"onboarding.account.message" = "avec ces renseignements";
+"onboarding.account.button.use" = "Utiliser ce compte";
+"onboarding.account.search.title" = "Ou rechercher par nom";
+"onboarding.account.search.firstname" = "Prénom";
+"onboarding.account.search.lastname" = "Nom";
+"onboarding.account.search.button" = "Rechercher";
+
+// MARK: - Home
+"home.title" = "Tshiakani VTC";
+"home.location.warning.title" = "Activez les services de géolocalisation";
+"home.location.warning.message" = "Nous ne savons pas où vous êtes";
+"home.location.button.address" = "Saisir adresse";
+"home.location.button.settings" = "Configurer";
+"home.promo.title" = "Offre spéciale";
+"home.promo.message" = "Des courses à partir de 34,000 CDF!";
+"home.destinations.title" = "Destinations populaires";
+
+// MARK: - Profile
+"profile.title" = "Profil";
+"profile.menu.payment" = "Modes de paiement";
+"profile.menu.promotions" = "Réductions et cadeaux";
+"profile.menu.history" = "Historique";
+"profile.menu.addresses" = "Mes adresses";
+"profile.menu.support" = "Assistance";
+"profile.menu.driver" = "Travaillez comme conducteur";
+"profile.menu.security" = "Sécurité";
+"profile.menu.settings" = "Paramètres";
+"profile.menu.about" = "Informations";
+
+// MARK: - Common
+"common.button.continue" = "Continuer";
+"common.button.cancel" = "Annuler";
+"common.button.save" = "Enregistrer";
+"common.button.delete" = "Supprimer";
+"common.button.edit" = "Modifier";
+"common.button.close" = "Fermer";
+"common.button.back" = "Retour";
+"common.button.next" = "Suivant";
+"common.button.done" = "Terminé";
+
+// MARK: - Permissions
+"permission.location.title" = "Permission de localisation";
+"permission.location.message" = "Tshiakani VTC a besoin de votre position pour trouver les meilleures offres";
+"permission.location.button.settings" = "Ouvrir les paramètres";
+"permission.notification.title" = "Notifications";
+"permission.notification.message" = "Recevez des notifications pour vos courses";
+"permission.whatsapp.title" = "WhatsApp";
+"permission.whatsapp.message" = "Ouvrir WhatsApp pour recevoir le code de vérification";
+

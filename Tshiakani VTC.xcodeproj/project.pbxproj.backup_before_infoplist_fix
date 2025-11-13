@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841E0B4A2EC0CA270098DEE7 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 841E02272EC01F110098DEE7 /* GooglePlaces */; };
+		841E0B4B2EC0CA270098DEE7 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 841E03562EC0237A0098DEE7 /* GoogleMaps */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849319002EBEE1F300D186E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849318EA2EBEE1F000D186E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849318F12EBEE1F000D186E8;
+			remoteInfo = "Tshiakani VTC";
+		};
+		8493190A2EBEE1F300D186E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849318EA2EBEE1F000D186E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849318F12EBEE1F000D186E8;
+			remoteInfo = "Tshiakani VTC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849318F22EBEE1F000D186E8 /* Tshiakani VTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tshiakani VTC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849318FF2EBEE1F300D186E8 /* Tshiakani VTCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tshiakani VTCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849319092EBEE1F300D186E8 /* Tshiakani VTCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tshiakani VTCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		849318F42EBEE1F000D186E8 /* Tshiakani VTC */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tshiakani VTC";
+			sourceTree = "<group>";
+		};
+		849319022EBEE1F300D186E8 /* Tshiakani VTCTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tshiakani VTCTests";
+			sourceTree = "<group>";
+		};
+		8493190C2EBEE1F300D186E8 /* Tshiakani VTCUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tshiakani VTCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849318EF2EBEE1F000D186E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841E0B4B2EC0CA270098DEE7 /* GoogleMaps in Frameworks */,
+				841E0B4A2EC0CA270098DEE7 /* GooglePlaces in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849318FC2EBEE1F300D186E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849319062EBEE1F300D186E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849318E92EBEE1F000D186E8 = {
+			isa = PBXGroup;
+			children = (
+				849318F42EBEE1F000D186E8 /* Tshiakani VTC */,
+				849319022EBEE1F300D186E8 /* Tshiakani VTCTests */,
+				8493190C2EBEE1F300D186E8 /* Tshiakani VTCUITests */,
+				849318F32EBEE1F000D186E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849318F32EBEE1F000D186E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849318F22EBEE1F000D186E8 /* Tshiakani VTC.app */,
+				849318FF2EBEE1F300D186E8 /* Tshiakani VTCTests.xctest */,
+				849319092EBEE1F300D186E8 /* Tshiakani VTCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849318F12EBEE1F000D186E8 /* Tshiakani VTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849319132EBEE1F300D186E8 /* Build configuration list for PBXNativeTarget "Tshiakani VTC" */;
+			buildPhases = (
+				849318EE2EBEE1F000D186E8 /* Sources */,
+				849318EF2EBEE1F000D186E8 /* Frameworks */,
+				849318F02EBEE1F000D186E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				849318F42EBEE1F000D186E8 /* Tshiakani VTC */,
+			);
+			name = "Tshiakani VTC";
+			packageProductDependencies = (
+				841E02272EC01F110098DEE7 /* GooglePlaces */,
+				841E03562EC0237A0098DEE7 /* GoogleMaps */,
+			);
+			productName = "Tshiakani VTC";
+			productReference = 849318F22EBEE1F000D186E8 /* Tshiakani VTC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849318FE2EBEE1F300D186E8 /* Tshiakani VTCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849319162EBEE1F300D186E8 /* Build configuration list for PBXNativeTarget "Tshiakani VTCTests" */;
+			buildPhases = (
+				849318FB2EBEE1F300D186E8 /* Sources */,
+				849318FC2EBEE1F300D186E8 /* Frameworks */,
+				849318FD2EBEE1F300D186E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849319012EBEE1F300D186E8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				849319022EBEE1F300D186E8 /* Tshiakani VTCTests */,
+			);
+			name = "Tshiakani VTCTests";
+			packageProductDependencies = (
+			);
+			productName = "Tshiakani VTCTests";
+			productReference = 849318FF2EBEE1F300D186E8 /* Tshiakani VTCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		849319082EBEE1F300D186E8 /* Tshiakani VTCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849319192EBEE1F300D186E8 /* Build configuration list for PBXNativeTarget "Tshiakani VTCUITests" */;
+			buildPhases = (
+				849319052EBEE1F300D186E8 /* Sources */,
+				849319062EBEE1F300D186E8 /* Frameworks */,
+				849319072EBEE1F300D186E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8493190B2EBEE1F300D186E8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8493190C2EBEE1F300D186E8 /* Tshiakani VTCUITests */,
+			);
+			name = "Tshiakani VTCUITests";
+			packageProductDependencies = (
+			);
+			productName = "Tshiakani VTCUITests";
+			productReference = 849319092EBEE1F300D186E8 /* Tshiakani VTCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849318EA2EBEE1F000D186E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					849318F12EBEE1F000D186E8 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					849318FE2EBEE1F300D186E8 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 849318F12EBEE1F000D186E8;
+					};
+					849319082EBEE1F300D186E8 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = 849318F12EBEE1F000D186E8;
+					};
+				};
+			};
+			buildConfigurationList = 849318ED2EBEE1F000D186E8 /* Build configuration list for PBXProject "Tshiakani VTC" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				ln,
+			);
+			mainGroup = 849318E92EBEE1F000D186E8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				849319592EBF1A8200D186E8 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				8493195C2EBF1FA500D186E8 /* XCLocalSwiftPackageReference "../../Downloads/firebase-ios-sdk-main" */,
+				841E02262EC01F110098DEE7 /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+				841E03552EC0237A0098DEE7 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 849318F32EBEE1F000D186E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849318F12EBEE1F000D186E8 /* Tshiakani VTC */,
+				849318FE2EBEE1F300D186E8 /* Tshiakani VTCTests */,
+				849319082EBEE1F300D186E8 /* Tshiakani VTCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849318F02EBEE1F000D186E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849318FD2EBEE1F300D186E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849319072EBEE1F300D186E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849318EE2EBEE1F000D186E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849318FB2EBEE1F300D186E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849319052EBEE1F300D186E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849319012EBEE1F300D186E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849318F12EBEE1F000D186E8 /* Tshiakani VTC */;
+			targetProxy = 849319002EBEE1F300D186E8 /* PBXContainerItemProxy */;
+		};
+		8493190B2EBEE1F300D186E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849318F12EBEE1F000D186E8 /* Tshiakani VTC */;
+			targetProxy = 8493190A2EBEE1F300D186E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		849319112EBEE1F300D186E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VYW2G9QFS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		849319122EBEE1F300D186E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VYW2G9QFS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849319142EBEE1F300D186E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYW2G9QFS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Tshiakani VTC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.tshiakaniVTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849319152EBEE1F300D186E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYW2G9QFS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Tshiakani VTC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.tshiakaniVTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		849319172EBEE1F300D186E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYW2G9QFS3;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.tshiakaniVTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tshiakani VTC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tshiakani VTC";
+			};
+			name = Debug;
+		};
+		849319182EBEE1F300D186E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYW2G9QFS3;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.tshiakaniVTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tshiakani VTC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tshiakani VTC";
+			};
+			name = Release;
+		};
+		8493191A2EBEE1F300D186E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYW2G9QFS3;
+				GENERATE_INFOPLIST_FILE = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.tshiakaniVTCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tshiakani VTC";
+			};
+			name = Debug;
+		};
+		8493191B2EBEE1F300D186E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VYW2G9QFS3;
+				GENERATE_INFOPLIST_FILE = NO;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruno.tshiakaniVTCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tshiakani VTC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849318ED2EBEE1F000D186E8 /* Build configuration list for PBXProject "Tshiakani VTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849319112EBEE1F300D186E8 /* Debug */,
+				849319122EBEE1F300D186E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849319132EBEE1F300D186E8 /* Build configuration list for PBXNativeTarget "Tshiakani VTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849319142EBEE1F300D186E8 /* Debug */,
+				849319152EBEE1F300D186E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849319162EBEE1F300D186E8 /* Build configuration list for PBXNativeTarget "Tshiakani VTCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849319172EBEE1F300D186E8 /* Debug */,
+				849319182EBEE1F300D186E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849319192EBEE1F300D186E8 /* Build configuration list for PBXNativeTarget "Tshiakani VTCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8493191A2EBEE1F300D186E8 /* Debug */,
+				8493191B2EBEE1F300D186E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8493195C2EBF1FA500D186E8 /* XCLocalSwiftPackageReference "../../Downloads/firebase-ios-sdk-main" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/firebase-ios-sdk-main";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		841E02262EC01F110098DEE7 /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.4.0;
+			};
+		};
+		841E03552EC0237A0098DEE7 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.4.0;
+			};
+		};
+		849319592EBF1A8200D186E8 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		841E02272EC01F110098DEE7 /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 841E02262EC01F110098DEE7 /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+		841E03562EC0237A0098DEE7 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 841E03552EC0237A0098DEE7 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 849318EA2EBEE1F000D186E8 /* Project object */;
+}

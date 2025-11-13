@@ -1,0 +1,4 @@
+Rapport de vérification backend et app driver - Mon Nov 10 01:33:45 WAT 2025
+═══════════════════════════════════════════════════════════════
+
+2025-11-10 01:33:45 - [❌ FAIL] Backend non accessible sur http://localhost:3000 (Code HTTP: 000ERROR)

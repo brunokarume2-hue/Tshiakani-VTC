@@ -1,0 +1,63 @@
+# Configuration pour Google App Engine (Flexible Environment)
+# Documentation: https://cloud.google.com/appengine/docs/flexible/nodejs/configuring-your-app-with-app-yaml
+
+runtime: nodejs18
+env: flex
+
+# Configuration des ressources
+resources:
+  cpu: 1
+  memory_gb: 2
+  disk_size_gb: 10
+
+# Configuration de l'échelle automatique
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 10
+  cool_down_period_sec: 180
+  cpu_utilization:
+    target_utilization: 0.6
+
+# Variables d'environnement
+env_variables:
+  NODE_ENV: production
+  PORT: 8080
+  # Les autres variables doivent être définies dans Google Cloud Console
+  # ou via Secret Manager pour la sécurité
+
+# Configuration de la santé
+readiness_check:
+  path: "/health"
+  check_interval_sec: 5
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 2
+  app_start_timeout_sec: 300
+
+liveness_check:
+  path: "/health"
+  check_interval_sec: 30
+  timeout_sec: 4
+  failure_threshold: 4
+  success_threshold: 2
+  initial_delay_sec: 300
+
+# Configuration des handlers
+handlers:
+  - url: /.*
+    script: auto
+    secure: always
+    redirect_http_response_code: 301
+
+# Configuration pour Cloud SQL (si utilisé)
+# Décommentez et configurez si vous utilisez Cloud SQL
+# beta_settings:
+#   cloud_sql_instances: "PROJECT_ID:REGION:INSTANCE_NAME"
+
+# Configuration des logs
+logs:
+  enabled: true
+
+# Configuration des services (pour microservices)
+# service: api
+

@@ -1,0 +1,64 @@
+# .gcloudignore - Fichiers à exclure lors du déploiement Cloud Build
+
+# Dépendances (seront installées dans le conteneur)
+node_modules/
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Fichiers de test
+test/
+tests/
+*.test.js
+*.spec.js
+coverage/
+
+# Documentation
+*.md
+docs/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.map
+
+# Fichiers de configuration locaux
+config/local.json
+config/development.json
+
+# Fichiers Firebase
+.firebaserc
+firebase.json
+firebase-debug.log
+
+# Autres
+*.tmp
+*.temp
+.cache/
+
+# Fichiers Cloud Build
+cloudbuild*.yaml
+.gcloudignore

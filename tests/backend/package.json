@@ -1,0 +1,21 @@
+{
+  "name": "tshiakani-vtc-backend-tests",
+  "version": "1.0.0",
+  "description": "Tests pour le backend Tshiakani VTC",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "setupFilesAfterEnv": ["./setup.js"],
+    "testTimeout": 30000
+  }
+}
+

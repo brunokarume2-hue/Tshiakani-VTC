@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Clé API Google Maps -->
+	<key>GOOGLE_MAPS_API_KEY</key>
+	<string>VOTRE_CLE_API_GOOGLE_MAPS_ICI</string>
+	
+	<!-- Permissions de localisation -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Nous avons besoin de votre localisation pour trouver les chauffeurs à proximité et calculer les trajets.</string>
+	
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Nous avons besoin de votre localisation pour suivre votre course en temps réel.</string>
+	
+	<!-- Autres permissions existantes -->
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>Nous souhaitons vous envoyer des notifications pour vous informer de l'arrivée de votre chauffeur et du statut de votre course.</string>
+</dict>
+</plist>
+

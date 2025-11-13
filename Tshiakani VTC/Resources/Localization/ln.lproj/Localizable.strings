@@ -1,0 +1,77 @@
+/* 
+  Localizable.strings (Lingala)
+  Tshiakani VTC
+*/
+
+// MARK: - Onboarding
+"onboarding.location.title" = "Bongisa esika oyo ozali";
+"onboarding.location.message" = "mpo oyeba biloko ya malamu oyo ezali pene";
+"onboarding.location.status.none" = "Nkombo te";
+"onboarding.location.status.authorized" = "Ndimbola esika";
+"onboarding.location.status.denied" = "Bopengwa";
+"onboarding.location.button.continue" = "Kokende";
+
+"onboarding.phone.title" = "Kotia nimero na yo";
+"onboarding.phone.message" = "Tokotinda code ya nkombo na nimero oyo";
+"onboarding.phone.placeholder" = "820 098 808";
+"onboarding.phone.button.continue" = "Kokende";
+"onboarding.phone.link.terms" = "Mibeko ya kosalela";
+"onboarding.phone.link.license" = "Elaka ya lisensi";
+"onboarding.phone.link.privacy" = "Politiki ya bopemi";
+
+"onboarding.code.title" = "Kotala WhatsApp na yo";
+"onboarding.code.message" = "Totindi code na";
+"onboarding.code.button.resend" = "Kotinda lisusu";
+"onboarding.code.button.sms" = "Kotinda na SMS";
+"onboarding.code.timer" = "Kotinda lisusu na %d miniti";
+
+"onboarding.account.title" = "Toyebi kompte moko";
+"onboarding.account.message" = "na makambo oyo";
+"onboarding.account.button.use" = "Kosala na kompte oyo";
+"onboarding.account.search.title" = "To koluka na nkombo";
+"onboarding.account.search.firstname" = "Nkombo ya yambo";
+"onboarding.account.search.lastname" = "Nkombo ya nsuka";
+"onboarding.account.search.button" = "Koluka";
+
+// MARK: - Home
+"home.title" = "Tshiakani VTC";
+"home.location.warning.title" = "Bongisa esika oyo ozali";
+"home.location.warning.message" = "Toyebi te esika oyo ozali";
+"home.location.button.address" = "Kotia adrese";
+"home.location.button.settings" = "Kobongisa";
+"home.promo.title" = "Ofre ya malamu";
+"home.promo.message" = "Biloko ebandaka na 34,000 CDF!";
+"home.destinations.title" = "Esika ya bato mingi";
+
+// MARK: - Profile
+"profile.title" = "Profil";
+"profile.menu.payment" = "Mitindo ya lifuti";
+"profile.menu.promotions" = "Rabais mpe kado";
+"profile.menu.history" = "Mokolo ya yambo";
+"profile.menu.addresses" = "Adrese na ngai";
+"profile.menu.support" = "Lisalisi";
+"profile.menu.driver" = "Kosala moto ya kokamba";
+"profile.menu.security" = "Bokengeli";
+"profile.menu.settings" = "Bongisa";
+"profile.menu.about" = "Makambo";
+
+// MARK: - Common
+"common.button.continue" = "Kokende";
+"common.button.cancel" = "Kozonga";
+"common.button.save" = "Kobomba";
+"common.button.delete" = "Kolimwisa";
+"common.button.edit" = "Kobongisa";
+"common.button.close" = "Kofunga";
+"common.button.back" = "Kozonga";
+"common.button.next" = "Kokende";
+"common.button.done" = "Esilaka";
+
+// MARK: - Permissions
+"permission.location.title" = "Ndimbola esika";
+"permission.location.message" = "Tshiakani VTC ezali na esengeli ya esika na yo mpo oyeba biloko ya malamu";
+"permission.location.button.settings" = "Kofungola bongisa";
+"permission.notification.title" = "Sango";
+"permission.notification.message" = "Yamba sango mpo na biloko na yo";
+"permission.whatsapp.title" = "WhatsApp";
+"permission.whatsapp.message" = "Kofungola WhatsApp mpo oyamba code ya nkombo";
+

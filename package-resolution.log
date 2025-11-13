@@ -1,0 +1,19 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project "Tshiakani VTC.xcodeproj" -scheme "Tshiakani VTC" -resolvePackageDependencies
+
+Resolve Package Graph
+
+Updating from https://github.com/apple/swift-algorithms.git
+
+Updating from https://github.com/googlemaps/google-maps-ios-utils
+
+Updating from https://github.com/googlemaps/ios-places-sdk
+
+Updating from https://github.com/googlemaps/ios-maps-sdk
+
+Updating from https://github.com/apple/swift-numerics.git
+
+the package manifest at '/Package.swift' cannot be accessed (/Package.swift doesn't exist in file system)2025-11-12 12:44:41.286 xcodebuild[10020:74188] Writing error result bundle to /var/folders/kb/l6z1fch920d6fdyq1_r1hzvw0000gn/T/ResultBundle_2025-12-11_12-44-0041.xcresult
+xcodebuild: error: Could not resolve package dependencies:
+  the package manifest at '/Package.swift' cannot be accessed (/Package.swift doesn't exist in file system)
+

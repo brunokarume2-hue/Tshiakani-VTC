@@ -1,0 +1,310 @@
+
+> tshiakani-vtc-backend@1.0.0 dev
+> nodemon server.postgres.js
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+⚠️ Firebase Admin non configuré: Failed to parse private key: Error: Invalid PEM formatted message.
+(node:81173) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81173) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(node:81173) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+❌ Erreur de connexion PostgreSQL: TypeORMError: Index "idx_price_config_active" contains column that is missing in the entity (PriceConfiguration): is_active
+    at /Users/admin/Documents/Tshiakani VTC/backend/node_modules/typeorm/metadata/IndexMetadata.js:125:23
+    at Array.map (<anonymous>)
+    at IndexMetadata.build (/Users/admin/Documents/Tshiakani VTC/backend/node_modules/typeorm/metadata/IndexMetadata.js:111:18)
+    at /Users/admin/Documents/Tshiakani VTC/backend/node_modules/typeorm/metadata-builder/EntityMetadataBuilder.js:216:61
+    at Array.forEach (<anonymous>)
+    at /Users/admin/Documents/Tshiakani VTC/backend/node_modules/typeorm/metadata-builder/EntityMetadataBuilder.js:216:36
+    at Array.forEach (<anonymous>)
+    at EntityMetadataBuilder.build (/Users/admin/Documents/Tshiakani VTC/backend/node_modules/typeorm/metadata-builder/EntityMetadataBuilder.js:215:25)
+    at ConnectionMetadataBuilder.buildEntityMetadatas (/Users/admin/Documents/Tshiakani VTC/backend/node_modules/typeorm/connection/ConnectionMetadataBuilder.js:68:137)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+⚠️ Firebase Admin non configuré: Failed to parse private key: Error: Invalid PEM formatted message.
+(node:81256) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81256) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(node:81256) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+✅ Connecté à PostgreSQL avec PostGIS
+✅ PostGIS version: 3.6 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
+🚀 Serveur démarré sur le port 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+⚠️ Firebase Admin non configuré: Failed to parse private key: Error: Invalid PEM formatted message.
+(node:81592) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81592) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(node:81592) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+✅ Connecté à PostgreSQL avec PostGIS
+✅ PostGIS version: 3.6 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
+🚀 Serveur démarré sur le port 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+⚠️ Firebase Admin non configuré: Failed to parse private key: Error: Invalid PEM formatted message.
+(node:81671) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81671) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(node:81671) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+✅ Connecté à PostgreSQL avec PostGIS
+✅ PostGIS version: 3.6 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
+🚀 Serveur démarré sur le port 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+/Users/admin/Documents/Tshiakani VTC/backend/server.postgres.js:86
+const AppDataSource = require('./config/database');
+      ^
+
+SyntaxError: Identifier 'AppDataSource' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+/Users/admin/Documents/Tshiakani VTC/backend/server.postgres.js:86
+const AppDataSource = require('./config/database');
+      ^
+
+SyntaxError: Identifier 'AppDataSource' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+/Users/admin/Documents/Tshiakani VTC/backend/server.postgres.js:86
+const AppDataSource = require('./config/database');
+      ^
+
+SyntaxError: Identifier 'AppDataSource' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+/Users/admin/Documents/Tshiakani VTC/backend/server.postgres.js:86
+const AppDataSource = require('./config/database');
+      ^
+
+SyntaxError: Identifier 'AppDataSource' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+/Users/admin/Documents/Tshiakani VTC/backend/server.postgres.js:86
+const AppDataSource = require('./config/database');
+      ^
+
+SyntaxError: Identifier 'AppDataSource' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+/Users/admin/Documents/Tshiakani VTC/backend/server.postgres.js:86
+const AppDataSource = require('./config/database');
+      ^
+
+SyntaxError: Identifier 'AppDataSource' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+/Users/admin/Documents/Tshiakani VTC/backend/server.postgres.js:86
+const AppDataSource = require('./config/database');
+      ^
+
+SyntaxError: Identifier 'AppDataSource' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+/Users/admin/Documents/Tshiakani VTC/backend/server.postgres.js:86
+const AppDataSource = require('./config/database');
+      ^
+
+SyntaxError: Identifier 'AppDataSource' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+/Users/admin/Documents/Tshiakani VTC/backend/server.postgres.js:86
+const AppDataSource = require('./config/database');
+      ^
+
+SyntaxError: Identifier 'AppDataSource' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+(node:81171) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+/Users/admin/Documents/Tshiakani VTC/backend/server.postgres.js:86
+const AppDataSource = require('./config/database');
+      ^
+
+SyntaxError: Identifier 'AppDataSource' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+/Users/admin/Documents/Tshiakani VTC/backend/server.postgres.js:86
+const AppDataSource = require('./config/database');
+      ^
+
+SyntaxError: Identifier 'AppDataSource' has already been declared
+    at wrapSafe (node:internal/modules/cjs/loader:1691:18)
+    at Module._compile (node:internal/modules/cjs/loader:1734:20)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.11.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+⚠️ Firebase Admin non configuré: Failed to parse private key: Error: Invalid PEM formatted message.
+(node:98658) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98658) Warning: Accessing non-existent property 'notifyAvailableDrivers' of module exports inside circular dependency
+(node:98658) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(node:98658) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+✅ Connecté à PostgreSQL avec PostGIS
+✅ PostGIS version: 3.6 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
+🚀 Serveur démarré sur le port 3000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+⚠️ Firebase Admin non configuré: Failed to parse private key: Error: Invalid PEM formatted message.
+(node:98757) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98757) Warning: Accessing non-existent property 'notifyAvailableDrivers' of module exports inside circular dependency
+(node:98757) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(node:98757) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+✅ Connecté à PostgreSQL avec PostGIS
+✅ PostGIS version: 3.6 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
+🚀 Serveur démarré sur le port 3000
+📡 WebSocket namespace /ws/driver disponible
+🌐 API disponible sur http://localhost:3000/api
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.postgres.js`[39m
+⚠️ Firebase Admin non configuré: Failed to parse private key: Error: Invalid PEM formatted message.
+(node:98945) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:98945) Warning: Accessing non-existent property 'notifyAvailableDrivers' of module exports inside circular dependency
+(node:98945) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+(node:98945) Warning: Accessing non-existent property 'io' of module exports inside circular dependency
+✅ Connecté à PostgreSQL avec PostGIS
+✅ PostGIS version: 3.6 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
+🚀 Serveur démarré sur le port 3000
+📡 WebSocket namespace /ws/driver disponible
+🌐 API disponible sur http://localhost:3000/api

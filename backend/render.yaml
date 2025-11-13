@@ -1,0 +1,71 @@
+# Configuration Render pour le déploiement
+# Documentation: https://render.com/docs/yaml-spec
+
+services:
+  # Service Web (API Backend)
+  - type: web
+    name: tshiakani-vtc-backend
+    env: node
+    plan: free # Plan gratuit (ou starter pour $7/mois)
+    buildCommand: npm ci --only=production
+    startCommand: node server.postgres.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000 # Render utilise le port 10000 par défaut (ou la variable PORT)
+      - key: DATABASE_URL
+        fromDatabase:
+          name: tshiakani-vtc-db
+          property: connectionString
+      - key: DB_HOST
+        fromDatabase:
+          name: tshiakani-vtc-db
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: tshiakani-vtc-db
+          property: port
+      - key: DB_USER
+        fromDatabase:
+          name: tshiakani-vtc-db
+          property: user
+      - key: DB_PASSWORD
+        fromDatabase:
+          name: tshiakani-vtc-db
+          property: password
+      - key: DB_NAME
+        fromDatabase:
+          name: tshiakani-vtc-db
+          property: database
+      - key: JWT_SECRET
+        value: ac6dcf4a79db19cffc2c71166699ff4ead6ec0fe259b3f77c67de9543ad99ec4a7e9818c6e4013467eaaf6b12545c34c8ce77b73141df9e28437179971e99eab
+      - key: ADMIN_API_KEY
+        value: aadf3378b1d5eca1c38398e5ee31ad6f978747762f9d546847173eb54e7637d8
+      - key: CORS_ORIGIN
+        value: https://tshiakani-vtc-99cea.web.app,https://tshiakani-vtc-99cea.firebaseapp.com
+      - key: TWILIO_ACCOUNT_SID
+        value: TWILIO_ACCOUNT_SID
+      - key: TWILIO_AUTH_TOKEN
+        value: TWILIO_AUTH_TOKEN
+      - key: TWILIO_WHATSAPP_FROM
+        value: whatsapp:+14155238886
+      - key: TWILIO_CONTENT_SID
+        value: HX229f5a04fd0510ce1b071852155d3e75
+      - key: REDIS_URL
+        sync: false # À configurer manuellement si vous utilisez Redis
+      - key: STRIPE_SECRET_KEY
+        sync: false # À configurer manuellement dans le dashboard Render
+      - key: STRIPE_CURRENCY
+        value: cdf
+      - key: STRIPE_PUBLISHABLE_KEY
+        sync: false # À configurer manuellement dans le dashboard Render
+
+databases:
+  # Base de données PostgreSQL avec PostGIS
+  - name: tshiakani-vtc-db
+    databaseName: tshiakani_vtc
+    user: tshiakani_user
+    plan: free # Plan gratuit (limité mais suffisant pour le MVP)
+    postgresMajorVersion: 15
+

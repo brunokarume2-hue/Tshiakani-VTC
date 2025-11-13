@@ -1,0 +1,56 @@
+# Configuration simplifiée pour Google Cloud Build
+steps:
+  # Étape 1: Build de l'image Docker
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - 'gcr.io/tshiakani-vtc-477711/tshiakani-driver-backend:latest'
+      - '.'
+    id: 'build-image'
+
+  # Étape 2: Push de l'image vers Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'push'
+      - 'gcr.io/tshiakani-vtc-477711/tshiakani-driver-backend:latest'
+    id: 'push-image'
+
+  # Étape 3: Déployer sur Cloud Run
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - 'run'
+      - 'deploy'
+      - 'tshiakani-driver-backend'
+      - '--image'
+      - 'gcr.io/tshiakani-vtc-477711/tshiakani-driver-backend:latest'
+      - '--region'
+      - 'us-central1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+      - '--memory'
+      - '512Mi'
+      - '--cpu'
+      - '1'
+      - '--min-instances'
+      - '1'
+      - '--max-instances'
+      - '10'
+      - '--port'
+      - '8080'
+      - '--set-env-vars'
+      - 'NODE_ENV=production,PORT=8080,JWT_SECRET=ac6dcf4a79db19cffc2c71166699ff4ead6ec0fe259b3f77c67de9543ad99ec4a7e9818c6e4013467eaaf6b12545c34c8ce77b73141df9e28437179971e99eab,ADMIN_API_KEY=aadf3378b1d5eca1c38398e5ee31ad6f978747762f9d546847173eb54e7637d8,CORS_ORIGIN=https://tshiakani-vtc-99cea.web.app,https://tshiakani-vtc-99cea.firebaseapp.com'
+    id: 'deploy-cloud-run'
+
+# Images à construire
+images:
+  - 'gcr.io/tshiakani-vtc-477711/tshiakani-driver-backend:latest'
+
+# Options de build
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+# Timeout du build (en secondes)
+timeout: '1200s'
+

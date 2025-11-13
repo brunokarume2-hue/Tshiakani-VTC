@@ -1,0 +1,32 @@
+╔══════════════════════════════════════════════════════════════╗
+║  INSTALLATION POSTGRESQL - RÉSUMÉ RAPIDE                    ║
+╚══════════════════════════════════════════════════════════════╝
+
+📥 ÉTAPE 1 : TÉLÉCHARGER POSTGRES.APP
+   → Ouvrez : https://postgresapp.com/downloads.html
+   → Téléchargez la dernière version
+   → C'est un fichier .dmg
+
+🔧 ÉTAPE 2 : INSTALLER
+   → Double-cliquez sur le .dmg
+   → Glissez Postgres.app dans Applications
+   → Ouvrez Applications et lancez Postgres.app
+   → Cliquez sur "Initialize" si demandé
+
+⚙️ ÉTAPE 3 : CONFIGURER
+   → Ouvrez un terminal
+   → Exécutez : ./configurer-postgresql.sh
+   
+   OU manuellement :
+   → psql postgres
+   → CREATE DATABASE TshiakaniVTC;
+   → \c TshiakaniVTC
+   → CREATE EXTENSION IF NOT EXISTS postgis;
+   → \q
+
+🚀 ÉTAPE 4 : DÉMARRER LES SERVEURS
+   → ./demarrer-serveurs.sh
+
+✅ C'EST TOUT !
+
+Pour plus de détails, voir : INSTALLATION_POSTGRESQL_SIMPLE.md
