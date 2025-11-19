@@ -1,0 +1,53 @@
+# Cloud Build configuration pour tshiakani-driver-backend
+steps:
+  # Build l'image Docker
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/tshiakani-driver-backend:latest', '-t', 'gcr.io/$PROJECT_ID/tshiakani-driver-backend:$BUILD_ID', '.']
+  
+  # Push l'image vers Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/tshiakani-driver-backend:latest']
+  
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/tshiakani-driver-backend:$BUILD_ID']
+  
+  # Déployer sur Cloud Run
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - 'run'
+      - 'deploy'
+      - 'tshiakani-driver-backend'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/tshiakani-driver-backend:$BUILD_ID'
+      - '--platform'
+      - 'managed'
+      - '--region'
+      - 'us-central1'
+      - '--allow-unauthenticated'
+      - '--set-env-vars'
+      - 'NODE_ENV=production,RETURN_OTP_CODE=true'
+      - '--memory'
+      - '2Gi'
+      - '--cpu'
+      - '2'
+      - '--min-instances'
+      - '0'
+      - '--max-instances'
+      - '10'
+      - '--timeout'
+      - '300'
+      - '--port'
+      - '8080'
+      - '--project'
+      - '$PROJECT_ID'
+
+images:
+  - 'gcr.io/$PROJECT_ID/tshiakani-driver-backend:latest'
+  - 'gcr.io/$PROJECT_ID/tshiakani-driver-backend:$BUILD_ID'
+
+options:
+  machineType: 'N1_HIGHCPU_8'
+  logging: CLOUD_LOGGING_ONLY
+
+timeout: '1200s'
+
